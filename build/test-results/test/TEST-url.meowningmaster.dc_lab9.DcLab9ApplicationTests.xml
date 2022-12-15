@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="url.meowningmaster.dc_lab9.DcLab9ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-15T20:51:03" hostname="meowster-cmp" time="0.695">
+  <properties/>
+  <testcase name="contextLoads()" classname="url.meowningmaster.dc_lab9.DcLab9ApplicationTests" time="0.695"/>
+  <system-out><![CDATA[22:50:57.651 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DcLab9ApplicationTests]: using SpringBootContextLoader
+22:50:57.675 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [url.meowningmaster.dc_lab9.DcLab9ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:50:57.678 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [url.meowningmaster.dc_lab9.DcLab9ApplicationTests]: DcLab9ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:50:57.741 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DcLab9ApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+22:50:57.879 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/meowster/Projects/School/distributed-computations/dc-lab9/build/classes/kotlin/main/url/meowningmaster/dc_lab9/DcLab9Application.class]
+22:50:57.888 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration url.meowningmaster.dc_lab9.DcLab9Application for test class url.meowningmaster.dc_lab9.DcLab9ApplicationTests
+22:50:58.072 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DcLab9ApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+22:50:58.075 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [DcLab9ApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+2022-12-15T22:50:58.601+02:00  INFO 31753 --- [    Test worker] u.m.dc_lab9.DcLab9ApplicationTests       : Starting DcLab9ApplicationTests using Java 17.0.5 with PID 31753 (started by meowster in /home/meowster/Projects/School/distributed-computations/dc-lab9)
+2022-12-15T22:50:58.605+02:00  INFO 31753 --- [    Test worker] u.m.dc_lab9.DcLab9ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2022-12-15T22:50:59.840+02:00  INFO 31753 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-15T22:50:59.945+02:00  INFO 31753 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JDBC repository interfaces.
+2022-12-15T22:51:00.432+02:00  INFO 31753 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-15T22:51:00.540+02:00  INFO 31753 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-12-15T22:51:00.860+02:00  INFO 31753 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-15T22:51:01.247+02:00  INFO 31753 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/testdb user=SA
+2022-12-15T22:51:01.251+02:00  INFO 31753 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-15T22:51:03.164+02:00  INFO 31753 --- [    Test worker] u.m.dc_lab9.DcLab9ApplicationTests       : Started DcLab9ApplicationTests in 5.0 seconds (process running for 7.223)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

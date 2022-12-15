@@ -1,0 +1,39 @@
+###
+GET http://localhost:8080/folders
+
+###
+POST http://localhost:8080/folders
+Content-Type: application/json
+
+{
+  "name": "Documents"
+}
+
+###
+DELETE http://localhost:8080/folders/Documents
+
+###
+GET http://localhost:8080/files
+
+###
+POST http://localhost:8080/files
+Content-Type: application/json
+
+{
+  "folder": "Images",
+  "name": "pup.png",
+  "content": "woof"
+}
+
+###
+DELETE http://localhost:8080/files/Images/pup.png
+
+###
+PATCH http://localhost:8080/files
+Content-Type: application/json
+
+{
+  "folder": "Images",
+  "name": "pup.png",
+  "content": "meow"
+}
